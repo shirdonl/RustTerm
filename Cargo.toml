@@ -1,0 +1,67 @@
+[package]
+name = "rustterm"
+version = "0.13.3"
+authors = ["T. Post"]
+description = "An crossplatform terminal library for manipulating terminals."
+repository = "https://github.com/shirdonl/rustterm"
+documentation = "https://docs.rs/rustterm/"
+license = "MIT"
+keywords = ["console", "color", "cursor", "input", "terminal"]
+exclude = ["target", "Cargo.lock"]
+readme = "README.md"
+edition = "2018"
+categories = ["command-line-interface", "command-line-utilities"]
+
+[lib]
+name = "rustterm"
+path = "src/lib.rs"
+
+#
+# Build documentation with all features -> EventStream is available
+#
+[package.metadata.docs.rs]
+all-features = true
+
+#
+# Features
+#
+[features]
+default = []
+event-stream = ["futures"]
+
+#
+# Shared dependencies
+#
+[dependencies]
+bitflags = "1.2"
+futures = { version = "0.3", optional = true }
+lazy_static = "1.4"
+parking_lot = "0.9"
+serde = { version = "1.0.0", features = ["derive"], optional = true }
+
+#
+# Windows dependencies
+#
+[target.'cfg(windows)'.dependencies.winapi]
+version = "0.3.8"
+features = ["winuser"]
+
+[target.'cfg(windows)'.dependencies]
+rustterm_winapi = "0.5.1"
+
+#
+# UNIX dependencies
+#
+[target.'cfg(unix)'.dependencies]
+libc = "0.2.51"
+mio = "0.6.19"
+signal-hook = { version = "0.1.11", features = ["mio-support"] }
+
+#
+# Dev dependencies (examples, ...)
+#
+[dev-dependencies]
+tokio = { version = "0.2.1", features = ["macros"] }
+futures = "0.3"
+futures-timer = "2"
+async-std = "1"
