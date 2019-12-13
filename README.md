@@ -1,4 +1,4 @@
-R<h1 align="center"><img width="440" src="./docs/rustterm_full.png" /></h1>
+<h1 align="center"><img width="440" src="https://gitee.com/shirdonl/RustTerm/blob/master/docs/crossterm_full.png" /></h1>
 
 # 跨平台终端操作库
 
