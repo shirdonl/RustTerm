@@ -1,4 +1,4 @@
-R<h1 align="center"><img width="440" src="docs/rustterm_full.png" /></h1>
+R<h1 align="center"><img width="440" src="./docs/rustterm_full.png" /></h1>
 
 # 跨平台终端操作库
 
