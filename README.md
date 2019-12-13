@@ -1,6 +1,4 @@
-<h1 align="center"><img src="https://gitee.com/shirdonl/RustTerm/blob/master/docs/crossterm_min.png" /></h1>
-
-# 跨平台终端操作库
+# Rust跨平台终端操作库
 
 当Rust语言的终端库只为UNIX系统编写时，您是否曾感到失望？
 
