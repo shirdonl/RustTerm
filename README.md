@@ -137,11 +137,6 @@ features = ["cursor", "screen"] # Enable required features only
 | `terminal` | Size, clear, scroll |
 | `style` | Colors, text attributes |
 
-## 贡献
-  
-
-我非常感谢有人给这个箱子捐款。在你之前，请， 
-读取[Contributing](docs/CONTRIBUTING.md) 规则. 
 
 ## 作者
 
@@ -151,6 +146,5 @@ features = ["cursor", "screen"] # Enable required features only
 
 这个项目，`rusterm`和它的所有子板条箱：`rusterm_screen`，`rusterm_cursor`，`rusterm_style`，
 
-`rusterm_input`、`rusterm_terminal`、`rusterm_winapi`、`rusterm_utils`是麻省理工学院授权的MIT
-[LICENSE](https://gitee.com/shirdonl/rustterm/blob/master/LICENSE)
+`rusterm_input`、`rusterm_terminal`、`rusterm_winapi`、`rusterm_utils`是MIT
 
