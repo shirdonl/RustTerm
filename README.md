@@ -10,9 +10,12 @@ rusterm的目标是简单且易于调用代码。通过rustterm的简单性，�
 
 担心你工作的平台。
 
-
 这个机箱支持所有的UNIX和Windows终端，直到Windows7（不是所有的终端都经过测试， 
 查看 [Tested Terminals](#tested-terminals) 获取更多信息).
+
+Tips:作者《Go Web编程实战派》出版了，促销活动中，想学Go Web编程的朋友，欢迎京东当当购买!
+当当（🔥🔥🔥🔥🔥🔥 活动抢购中......）：http://product.dangdang.com/29225055.html
+京东（🔥🔥🔥🔥🔥🔥 活动抢购中......）：https://item.jd.com/13200972.html
 
 ## 目录 
 
