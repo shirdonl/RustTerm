@@ -79,7 +79,7 @@ rusterm的目标是简单且易于调用代码。通过rustterm的简单性，�
 
 <details>
 <summary>
-Click to show Cargo.toml.
+点击展示Cargo.toml.配置文件
 </summary>
 
 ```toml
